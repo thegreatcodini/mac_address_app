@@ -30,6 +30,6 @@ After building the image in Option2 in the Requirements, you can run the applica
 # Security Considerations
 Although the API key is not being store as a variable, it is being passed to the application via the command line and this risk should be considered.
 
-Users of this application should also consider security regarding the implementation of https.
+Users of this application should also consider security regarding the implementation of https and certificates.
 
-In addition, the use of Docker may also introduce additional security risks
+In addition, the use of Docker may also introduce additional security risks regarding the kernel space and inherent application vulnerabilities.
